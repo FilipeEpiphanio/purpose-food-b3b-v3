@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python (manter fora do repositório principal)
+*.py
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+requirements.txt
+requirements_updated.txt
+
+# Arquivos de trading e análise (não necessários para B2B)
+reports/
+*.backtest
+*.strategy
+*.results
+src/forex/
+src/ml/
+src/strategies/
+src/analysis/
+src/brokers/
+src/exchange/
+src/risk/
+src/trading/
+src/data/
+src/alerts/
+src/interface/
+
+# Cache e temporários
+*.cache
+*.tmp
+*.temp
+.npm/
+.eslintcache
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+# Arquivos locais
+.env.local
+.env.*.local
+
+# Build otimizado (se existir)
+build-optimized/
